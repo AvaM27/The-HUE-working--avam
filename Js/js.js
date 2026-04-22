@@ -6,14 +6,7 @@ $(".c1-1").click(function() {
   $("#popup-title").text("Wine Red - Warm Orange");
   $("#popup-hex").text("#6B2C43 + #EF742E");
   $("#popup-description").html("A deep wine red and strong orange make a moody but balanced contrast.<br>Their  richness makes them nice to pair, whether as statement pieces or subtle accents.");
- 
-  $("#inspo-img-1").attr("src", "images/c1-1-1.jpg");
-  $("#inspo-img-2").attr("src", "images/c1-1-2.jpg");
-  $("#inspo-img-3").attr("src", "images/c1-1-3.jpg");
-  $("#inspo-img-4").attr("src", "images/c1-1-4.jpg");
-  $("#inspo-img-5").attr("src", "images/c1-1-5.jpg");
-  $("#inspo-img-6").attr("src", "images/c1-1-6.jpg");
-  $("#inspo-img-7").attr("src", "images/c1-1-7.jpg");
+
   $("#popup").fadeIn();
 });
 
